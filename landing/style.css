@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.recent-projects {
+    padding: 20px;
+}
+
+.recent-projects h2 {
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    margin: 20px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.schedule,
+.contact-info {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.schedule h3,
+.contact-info h3 {
+    text-align: center;
+}
+
+.schedule p,
+.contact-info p {
+    margin: 5px 0;
+}
